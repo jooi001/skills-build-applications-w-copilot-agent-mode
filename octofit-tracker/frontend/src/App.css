@@ -1,3 +1,14 @@
+/* General styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(to bottom, #FD8B00, #BB1910); /* Gradient background */
+  background-repeat: no-repeat; /* Ensure the gradient does not repeat */
+  background-attachment: fixed; /* Make the gradient fill the entire page */
+  height: 100vh; /* Ensure the body takes up the full viewport height */
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align: center;
 }
